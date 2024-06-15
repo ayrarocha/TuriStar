@@ -1,0 +1,51 @@
+</style>
+</head>
+<body>
+    <img src="Imagem1.jpg" class="fundo-image" alt="TuriStar">
+
+    <header>
+        <h1>☆ TuriStar ☆</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <form action="/search" method="get" style="margin-top: 10px;">
+                <input type="text" name="q" placeholder="Pesquisar..." style="border-radius: 20px; padding: 10px; border: 3px solid #ccc;
+                margin-bottom: 7px;">
+                <button type="submit" style="background-color: #6c3c0c; color: #fff; border: none; padding: 10px 20px; border-radius: 20px;">Buscar</button>
+            </form>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#transporte">Transporte</a></li>
+                <li><a href="#hospedagem">Hospedagem</a></li>
+                <li><a href="#pontos-turisticos">Pontos Turísticos</a></li>
+                <li><a href="#gastronomia">Gastronomia</a></li>
+                <li><a href="#cultura-eventos">Cultura e Eventos</a></li>
+        </ul>
+    </nav>
+
+        <div class="container">
+            <div class="coluna coluna-esquerda">
+                <section>
+                <h2>Explore Mais Destinos</h2>
+                <div class="gastronomia-comida" id="gastronomia-comida"></div>
+                <img src="Imagem3.jpg" class="lugares" alt="lugares">
+                <p>Descubra mais lugares emocionantes:</p>
+                <a href="https://www.google.com/maps/search/" class="botao-google-maps">Ver no Google Maps</a>
+                </section>
+            </div>
+            <div class="coluna coluna-direita">
+                <section id="gastronomia">
+                    <h2>Gastronomia Local</h2>
+                    <div class="mapa-destinos" id=""></div>
+                    <img src="Imagem2.jpg" class="comida" alt="gastronomia">
+                    <p>Descubra novas variedades de pratos típicos:</p>
+                    <a href="#" class="botao-google-maps">Descubra mais</a>
+                </section>
+            </div>
+            </div>
+
+            <div class="contato">
+                <img src="Imagem4.jpg" alt="Contato">
+            </div>
+</body>
+</html>
